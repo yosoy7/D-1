@@ -1,0 +1,105 @@
+:root{
+    --Mostaza:hsl(47, 88%, 63%);
+    --blanco:hsl(0, 0%, 100%);
+    --Gris-1:hsl(0, 0%, 42%);
+    --Gris-2:hsl(0, 0%, 7%);
+}
+
+body{
+    background-color: var(--Mostaza);
+    font-size: 16px;
+}
+
+.f-principal{
+    border-radius: 10px;
+    width: 100%;
+    height: auto;
+    aspect-ratio: 1/1;
+}
+
+.f-blanco{
+    background-color: var(--blanco);
+    margin: 0 auto;
+    width: 300px;
+    height: auto;
+    border-radius: 20px;
+    padding: 1em;
+
+}
+
+h2{
+    font-family: "Outfit", serif;
+    font-optical-sizing: auto;
+    font-weight: 800;
+    font-style: normal;
+    border-radius: 5px;
+    width: 65px;
+    height: auto;
+    font-size: 15px;
+    margin: 0 auto;
+    padding-left: 3px;
+}
+
+.l-negras-m{
+    background-color: var(--Mostaza);
+    border-radius: 5px;
+    width: 65px;
+    height: auto;
+}
+
+.l-gris{
+    color: var(--Gris-2);
+    margin: 0 auto;
+    align-items: flex-start;
+    padding: 1em 0 1em 0;
+    font-family: "Outfit", serif;
+    font-optical-sizing: auto;
+    font-weight: 500;
+    font-style: normal;
+    font-size: 12px;
+    
+}
+
+.l-negras{
+    color: var(--Gris-2);
+    margin: 0 auto;
+    font-family: "Outfit", serif;
+    font-optical-sizing: auto;
+    font-weight: 800;
+    font-style: normal;
+    
+}
+
+.l-gris-2{
+    color: var(--Gris-1);
+    font-family: "Outfit", serif;
+    font-optical-sizing: auto;
+    font-weight: 500;
+    font-style: normal;
+    font-size: 10px;
+    padding: 15px 0 0 0;
+    
+}
+
+.img-avatar{
+    width: 2em;
+    height: auto;
+    margin: 0 auto;
+    clear: both;
+}
+
+span{
+    color: var(--Gris-2);
+    font-family: "Outfit", serif;
+    font-optical-sizing: auto;
+    font-weight: 800;
+    font-style: normal;
+    font-size: 12px; 
+}
+
+.footer{
+    padding-top: 1em;
+    clear: both;
+    align-items: center;
+    padding-bottom: 1em;
+}
